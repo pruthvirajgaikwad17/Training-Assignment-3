@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>This is registration form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms">
+        <div class="form register">
+          <span class="title">Registraion Form</span>
+          <form action="error()">
+            <div>
+              <label class="input-label">Name</label
+              ><input
+                class="input-field"
+                type="text"
+                placeholder="Enter your Name"
+                id="name"
+                required
+              />
+              <label id="name-error" class="error"></label>
+            </div>
+            <div>
+              <label class="input-label">Age</label
+              ><input
+                class="input-field"
+                type="number"
+                placeholder="Enter your Age"
+                id="age"
+                required
+              />
+              <label id="age-error" class="error"></label>
+            </div>
+            <div>
+              <label class="input-label">Phone No.</label
+              ><input
+                class="input-field"
+                type="tel"
+                placeholder="Enter your Phone Number"
+                id="phone"
+                required
+              />
+              <label id="phone-error" class="error"></label>
+            </div>
+            <div>
+              <label class="input-label">Email Id</label
+              ><input
+                class="input-field"
+                type="email"
+                placeholder="Enter your Email Id"
+                id="email"
+                required
+              />
+              <label id="email-error" class="error"></label>
+            </div>
+            <div>
+              <label class="input-label">Gender</label
+              ><select class="input-select" required>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Other</option>
+              </select>
+            </div>
+            <div>
+              <label class="input-label">Enter Password</label
+              ><input
+                class="input-field"
+                type="password"
+                placeholder="Enter your Password"
+                id="pass"
+                required
+              />
+              <label id="pass-error" class="error"></label>
+            </div>
+            <div>
+              <label class="input-label">Cofirm Password</label
+              ><input
+                class="input-field"
+                type="password"
+                placeholder="Enter your Password Again"
+                id="conf"
+                required
+              />
+              <label id="conf-error" class="error"></label>
+            </div>
+            <div class="btn">
+              <label id="check-error" class="error"></label>
+              <button type="submit" id="btn">Submit</button
+              ><button type="reset">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
